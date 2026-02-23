@@ -1,0 +1,18 @@
+Source: ai2offline-emulator-libs
+Section: admin
+Priority: optional
+Maintainer: Juanma1980 <juanma1980@gmail.com>
+Uploaders: LliureX Team
+Build-Depends: debhelper (>= 12.0)
+Standards-Version: 4.4.1
+Homepage: https://github.com/lliurex/ai2offline-emulator
+
+Package: ai2offline-emulator-libs
+Architecture: all
+Depends: zero-lliurex-ai2offline, 
+	android-sdk, 
+	android-sdk-platform-tools, 
+	xz-utils, 
+Description: Libs for ai2offline
+ Libs for ai2offline
+

@@ -7,7 +7,9 @@
 	dh $@ 
 
 override_dh_clean:
-	dh_clean --exclude=*.so
+	#dh_clean --exclude=*.so
+	mkdir -p debian/ai2offline-emulator-libs/opt/ai2offline/AI2Offline7.7/from-Android-SDK/emulator/lib64
+	cp libs/lib64/*so debian/ai2offline-emulator-libs/opt/ai2offline/AI2Offline7.7/from-Android-SDK/emulator/lib64/
 
 override_dh_prep:
 	dh_prep --exclude=*.so

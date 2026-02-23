@@ -6,6 +6,5 @@
 %:
 	dh $@ 
 
-override_dh_auto_build:
-	mkdir -p debian/opt/ai2offline/AI2Offline7.7/from-Android-SDK/emulator/lib64/
-	cp -r libs/lib64/* debian/opt/ai2offline/AI2Offline7.7/from-Android-SDK/emulator/lib64/
+override_dh_clean:
+

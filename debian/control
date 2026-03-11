@@ -10,8 +10,6 @@ Homepage: https://github.com/lliurex/ai2offline-emulator
 Package: ai2offline-emulator-libs
 Architecture: all
 Depends: zero-lliurex-ai2offline, 
-	android-sdk, 
-	android-sdk-platform-tools, 
 	xz-utils, 
 Description: Libs for ai2offline
  Libs for ai2offline
